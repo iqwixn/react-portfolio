@@ -1,10 +1,28 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+html{
+  background: rgb(16, 171, 255);
 }
 
+#root {
+  background: rgb(16, 171, 255);
+  text-align: center;
+  
+}
+
+.nav-tabs {
+  font-size: larger;
+  background: lightblue;
+  height: 100px;
+}
+
+.nav-link {
+  background-color: powderblue;
+
+}
+
+.active {
+background: darkblue;
+
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -37,6 +55,3 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
-}
